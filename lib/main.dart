@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_douban/blocs/home_bloc.dart';
+import 'package:flutter_douban/blocs/subject_bloc.dart';
 import 'package:flutter_douban/pages/home_bottom_bar/home_bottom_bar.dart';
 import 'package:flutter_douban/routes.dart';
 
@@ -8,10 +11,18 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "豆瓣App",
-      home: MyStackPage(),
-    );
+    return MultiBlocProvider(
+        providers: [
+          BlocProvider<HomeBloc>(
+            create: (BuildContext context) => HomeBloc(),
+          ),
+          BlocProvider<SubjectBloc>(
+              create: (BuildContext context) => SubjectBloc())
+        ],
+        child: MaterialApp(
+          title: "豆瓣App",
+          home: MyStackPage(),
+        ));
   }
 }
 

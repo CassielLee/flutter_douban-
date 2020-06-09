@@ -1,4 +1,6 @@
 // import 'package:flutter_douban/models/movie_model.dart';
+import 'package:flutter_douban/models/movie_model.dart';
+import 'package:flutter_douban/models/music_model.dart';
 import 'package:flutter_douban/services/http_request.dart';
 
 class Urls {
@@ -13,19 +15,34 @@ class Api {
     final int startCount = page * 20;
     final result = await HttpRequest.request(
         '${Urls.movieApi}top250?start=$startCount&count=20');
+    return MovieModel.fromMap(result.data);
+  }
+
+  static Future getMoreMovieList(int page) async {
+    final int startCount = page * 20;
+    final result = await HttpRequest.request(
+        '${Urls.movieApi}top250?start=$startCount&count=20');
+    return MovieModel.getMovieList(result);
+  }
+
+  // 电影详情
+  static Future getMovieDetailByID(String id) async {
+    final result = await HttpRequest.request('${Urls.movieApi}/subject/$id');
     return result.data;
+  }
+
+  // 音乐相关接口
+  static Future getMusicList(String tag,
+      {int start = 0, int count = 12}) async {
+    final result = await HttpRequest.request(
+        '${Urls.musicApi}/search?tag=$tag&start=$start&count=$count');
+    return MusicModel.fromJson(result.data);
   }
 
   // 搜索列表
   static Future getSearchMusicList(String keyWord) async {
     final result =
         await HttpRequest.request('${Urls.musicApi}search?q=$keyWord');
-    return result.data;
-  }
-
-  // 电影详情
-  static Future getMovieDetailByID(String id) async {
-    final result = await HttpRequest.request('${Urls.movieApi}/subject/$id');
     return result.data;
   }
 }

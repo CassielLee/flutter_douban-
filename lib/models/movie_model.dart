@@ -40,7 +40,7 @@ class MovieModel {
     count = json['count'];
   }
 
-  List<MovieItem> getMovieList(Map<String, dynamic> json) {
+  static List<MovieItem> getMovieList(Map<String, dynamic> json) {
     List<MovieItem> movieList = [];
     if (json['subjects'] != null) {
       movieList = new List<MovieItem>();
@@ -51,12 +51,35 @@ class MovieModel {
     return movieList;
   }
 
+  MovieModel copyWith(
+      int count, int total, int start, List<MovieItem> movieList) {
+    return MovieModel(
+        count: count ?? this.count,
+        start: start ?? this.start,
+        total: this.total,
+        movieList: movieList);
+  }
+
+  List<MovieItem> getMovieListData() {
+    return this.movieList ?? [];
+  }
+
+  MovieModel addMovieList(List<MovieItem> newData) {
+    // newData.addAll(this.movieList);
+    this.movieList.addAll(newData);
+    return MovieModel(
+        count: this.count,
+        start: this.start,
+        total: this.total,
+        movieList: this.movieList);
+  }
+
   bool isEmpty() {
     return movieList.isEmpty;
   }
 }
 
-int counter = 1;
+int counter = 0;
 
 class MovieItem {
   String id;

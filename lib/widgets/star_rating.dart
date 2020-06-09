@@ -9,11 +9,13 @@ class CLStarRating extends StatefulWidget {
   final double size;
   final Color unselectedColor;
   final Color selectedColor;
+  final bool showText;
 
   CLStarRating(
       {@required this.rating,
       this.maxRating = 10,
       this.size = 30,
+      this.showText = false,
       this.unselectedColor = const Color(0xffbbbbbb),
       this.selectedColor = const Color(0xffe0aa46),
       Widget unselectedImage,
@@ -42,15 +44,25 @@ class _CLStarRatingState extends State<CLStarRating> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Stack(children: <Widget>[
-        Row(
-          children: getUnSelectImage(),
-          mainAxisSize: MainAxisSize.min,
-        ),
-        Row(
-          children: getSelectImage(),
-          mainAxisSize: MainAxisSize.min,
-        )
+      child: Row(children: <Widget>[
+        Stack(children: <Widget>[
+          Row(
+            children: getUnSelectImage(),
+            mainAxisSize: MainAxisSize.min,
+          ),
+          Row(
+            children: getSelectImage(),
+            mainAxisSize: MainAxisSize.min,
+          )
+        ]),
+        widget.showText
+            ? Container(
+                padding: EdgeInsets.only(left: 3),
+                child: Text(
+                  widget.rating.toString(),
+                  style: TextStyle(color: Colors.black38),
+                ))
+            : SizedBox()
       ]),
     );
   }

@@ -7,7 +7,7 @@ class HttpRequest {
   static BaseOptions baseOptions = new BaseOptions(
     baseUrl: BASE_URL,
     connectTimeout: CONNECT_TIMEOUT * 1000,
-    // receiveTimeout: RECEIVE_TIMEOUT * 1000,
+    receiveTimeout: RECEIVE_TIMEOUT * 1000,
   );
   static Dio dio = new Dio(baseOptions);
 
