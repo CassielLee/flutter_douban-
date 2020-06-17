@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_douban/blocs/home_bloc.dart';
+import 'package:flutter_douban/blocs/movie_detail_bloc.dart';
 import 'package:flutter_douban/blocs/subject_bloc.dart';
 import 'package:flutter_douban/pages/home_bottom_bar/home_bottom_bar.dart';
 import 'package:flutter_douban/routes.dart';
@@ -17,7 +18,10 @@ class MyApp extends StatelessWidget {
             create: (BuildContext context) => HomeBloc(),
           ),
           BlocProvider<SubjectBloc>(
-              create: (BuildContext context) => SubjectBloc())
+              create: (BuildContext context) => SubjectBloc()),
+          BlocProvider<MovieDetailBloc>(
+            create: (BuildContext context) => MovieDetailBloc(),
+          )
         ],
         child: MaterialApp(
           title: "豆瓣App",

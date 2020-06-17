@@ -2,19 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_douban/models/movie_model.dart';
 import 'package:flutter_douban/widgets/star_rating.dart';
 import 'package:flutter_douban/widgets/dashed_line.dart';
-import 'package:flutter_douban/services/api.dart';
+// import 'package:flutter_douban/services/api.dart';
+import 'package:flutter_douban/pages/movie_detail/movie_detail.dart';
 
 class MovieListItem extends StatelessWidget {
   final MovieItem item;
   MovieListItem(this.item);
-
-  _goToMovieDetail() {
-    print("点击进入详情了！");
-    print(item.id);
-    Api.getMovieDetailByID(item.id).then((res) {
-      print(res);
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +26,10 @@ class MovieListItem extends StatelessWidget {
                 SizedBox(height: 12),
                 getOriginTitleWidget(),
               ])),
-      onTap: _goToMovieDetail,
+      onTap: () {
+        Navigator.of(context)
+            .pushNamed(MovieDetail.routeName, arguments: {'id': item.id});
+      },
     );
   }
 

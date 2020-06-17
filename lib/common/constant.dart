@@ -547,4 +547,631 @@ class Constant {
       }
     ]
   };
+  static const INIT_MOVIE_CONTENT_DATA = {
+    "rating": {
+        "max": 10,
+        "average": 9.2,
+        "details": {
+            "1": 131,
+            "2": 513,
+            "3": 11684,
+            "4": 59387,
+            "5": 131588
+        },
+        "stars": "45",
+        "min": 0
+    },
+    "reviews_count": 2268,
+    "videos": [
+        {
+            "source": {
+                "literal": "iqiyi",
+                "pic": "https://img9.doubanio.com/f/movie/7c9e516e02c6fe445b6559c0dd2a705e8b17d1c9/pics/movie/video-iqiyi.png",
+                "name": "爱奇艺视频"
+            },
+            "sample_link": "http://www.iqiyi.com/v_19rr7r4y5g.html?vfm=m_331_dbdy&fv=4904d94982104144a1548dd9040df241",
+            "video_id": "19rr7r4y5g",
+            "need_pay": true
+        }
+    ],
+    "wish_count": 283248,
+    "original_title": "となりのトトロ",
+    "blooper_urls": [
+        "http://vt1.doubanio.com/202006112037/9bdff826c0bd759b6963b9f69d6b0e49/view/movie/M/302400106.mp4",
+        "http://vt1.doubanio.com/202006112037/e4c64d1404c560518fdf9c06af9c814d/view/movie/M/302400656.mp4",
+        "http://vt1.doubanio.com/202006112037/86cd1e17b1cd0f11673b34e2ac6d08d1/view/movie/M/302390686.mp4"
+    ],
+    "collect_count": 1597944,
+    "images": {
+        "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp",
+        "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp",
+        "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2540924496.webp"
+    },
+    "douban_site": "",
+    "year": "1988",
+    "popular_comments": [
+        {
+            "rating": {
+                "max": 5,
+                "value": 0,
+                "min": 0
+            },
+            "useful_count": 314,
+            "author": {
+                "uid": "su-su",
+                "avatar": "https://img9.doubanio.com/icon/u1083363-130.jpg",
+                "signature": "その光が僅かだとしても…",
+                "alt": "https://www.douban.com/people/su-su/",
+                "id": "1083363",
+                "name": "susu/苏酱"
+            },
+            "subject_id": "1291560",
+            "content": "有童心是多么的重要啊！！！！！！！",
+            "created_at": "2006-01-16 18:53:58",
+            "id": "1156511"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 4,
+                "min": 0
+            },
+            "useful_count": 7457,
+            "author": {
+                "uid": "mjxian",
+                "avatar": "https://img9.doubanio.com/icon/u3280807-51.jpg",
+                "signature": "不三不四",
+                "alt": "https://www.douban.com/people/mjxian/",
+                "id": "3280807",
+                "name": "mjxian"
+            },
+            "subject_id": "1291560",
+            "content": "如果你在下雨天的车站，遇到被淋湿的妖怪，请把雨伞借给它，你会得到森林的通行证哦",
+            "created_at": "2012-09-19 22:16:47",
+            "id": "581965237"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 4,
+                "min": 0
+            },
+            "useful_count": 4283,
+            "author": {
+                "uid": "mysubi",
+                "avatar": "https://img9.doubanio.com/icon/u1044346-28.jpg",
+                "signature": "永远是少年",
+                "alt": "https://www.douban.com/people/mysubi/",
+                "id": "1044346",
+                "name": "苏比"
+            },
+            "subject_id": "1291560",
+            "content": "原来龙猫的戏份这么少啊。",
+            "created_at": "2011-01-20 22:48:17",
+            "id": "342926056"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 4,
+                "min": 0
+            },
+            "useful_count": 684,
+            "author": {
+                "uid": "luhua",
+                "avatar": "https://img9.doubanio.com/icon/u1329080-9.jpg",
+                "signature": "灵魂深处有个鬼，这鬼跟你有一腿",
+                "alt": "https://www.douban.com/people/luhua/",
+                "id": "1329080",
+                "name": "芦哲峰"
+            },
+            "subject_id": "1291560",
+            "content": "宫崎骏最感人的一部，初看平平无奇，回味一下痛彻肺腑。",
+            "created_at": "2011-01-31 12:43:18",
+            "id": "347641522"
+        }
+    ],
+    "alt": "https://movie.douban.com/subject/1291560/",
+    "id": "1291560",
+    "mobile_url": "https://movie.douban.com/subject/1291560/mobile",
+    "photos_count": 1100,
+    "pubdate": "2018-12-14",
+    "title": "龙猫",
+    "do_count": null,
+    "has_video": true,
+    "share_url": "https://m.douban.com/movie/subject/1291560",
+    "seasons_count": null,
+    "languages": [
+        "日语"
+    ],
+    "schedule_url": "",
+    "writers": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp"
+            },
+            "name_en": "Hayao Miyazaki",
+            "name": "宫崎骏",
+            "alt": "https://movie.douban.com/celebrity/1054439/",
+            "id": "1054439"
+        }
+    ],
+    "pubdates": [
+        "1988-04-16(日本)",
+        "2018-12-14(中国大陆)"
+    ],
+    "website": "",
+    "tags": [
+        "日本",
+        "动漫",
+        "温情",
+        "童年",
+        "经典",
+        "治愈系",
+        "成长",
+        "童话",
+        "感人",
+        "亲情"
+    ],
+    "has_schedule": false,
+    "durations": [
+        "86分钟"
+    ],
+    "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+    ],
+    "collection": null,
+    "trailers": [
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2541731327.jpg?",
+            "title": "中国预告片：终极版 (中文字幕)",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/240242/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2541731327.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/1d67a285db0df318fa5ef0878bc288ca/view/movie/M/302400242.mp4",
+            "id": "240242"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2541036614.jpg?",
+            "title": "中国预告片：剧情版 (中文字幕)",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/239886/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2541036614.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/26999fe2428a8a7c84c112533b776406/view/movie/M/302390886.mp4",
+            "id": "239886"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2537990878.jpg?",
+            "title": "预告片",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/238409/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2537990878.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/c816f0c762ca792a91ab002fdc56eb52/view/movie/M/302380409.mp4",
+            "id": "238409"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/1668775738.jpg?",
+            "title": "日本预告片",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/119893/",
+            "small": "https://img9.doubanio.com/img/trailer/small/1668775738.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/656ae60c16af42496080065ad49c0822/view/movie/M/301190893.mp4",
+            "id": "119893"
+        }
+    ],
+    "episodes_count": null,
+    "trailer_urls": [
+        "http://vt1.doubanio.com/202006112037/1d67a285db0df318fa5ef0878bc288ca/view/movie/M/302400242.mp4",
+        "http://vt1.doubanio.com/202006112037/26999fe2428a8a7c84c112533b776406/view/movie/M/302390886.mp4",
+        "http://vt1.doubanio.com/202006112037/c816f0c762ca792a91ab002fdc56eb52/view/movie/M/302380409.mp4",
+        "http://vt1.doubanio.com/202006112037/656ae60c16af42496080065ad49c0822/view/movie/M/301190893.mp4"
+    ],
+    "has_ticket": false,
+    "bloopers": [
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2541313558.jpg?",
+            "title": "花絮：秦岚助力配音特辑 (中文字幕)",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/240106/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2541313558.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/9bdff826c0bd759b6963b9f69d6b0e49/view/movie/M/302400106.mp4",
+            "id": "240106"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2542466936.jpg?",
+            "title": "其它花絮：口碑特辑 (中文字幕)",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/240656/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2542466936.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/e4c64d1404c560518fdf9c06af9c814d/view/movie/M/302400656.mp4",
+            "id": "240656"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2540479710.jpg?",
+            "title": "其它花絮：宫崎骏作品回顾 (中文字幕)",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/239686/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2540479710.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/86cd1e17b1cd0f11673b34e2ac6d08d1/view/movie/M/302390686.mp4",
+            "id": "239686"
+        }
+    ],
+    "clip_urls": [
+        "http://vt1.doubanio.com/202006112037/05611c0ebb0b97a275cc5077eea3d184/view/movie/M/301190894.mp4"
+    ],
+    "current_season": null,
+    "casts": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455201170.02.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455201170.02.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1455201170.02.webp"
+            },
+            "name_en": "Noriko Hidaka",
+            "name": "日高法子",
+            "alt": "https://movie.douban.com/celebrity/1019382/",
+            "id": "1019382"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p29537.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p29537.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p29537.webp"
+            },
+            "name_en": "Chika Sakamoto",
+            "name": "坂本千夏",
+            "alt": "https://movie.douban.com/celebrity/1025582/",
+            "id": "1025582"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1503457262.72.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1503457262.72.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1503457262.72.webp"
+            },
+            "name_en": "Shigesato Itoi",
+            "name": "糸井重里",
+            "alt": "https://movie.douban.com/celebrity/1379738/",
+            "id": "1379738"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1356199849.63.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1356199849.63.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1356199849.63.webp"
+            },
+            "name_en": "Sumi Shimamoto",
+            "name": "岛本须美",
+            "alt": "https://movie.douban.com/celebrity/1037668/",
+            "id": "1037668"
+        }
+    ],
+    "countries": [
+        "日本"
+    ],
+    "mainland_pubdate": "2018-12-14",
+    "photos": [
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p537681563.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p537681563.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p537681563.webp",
+            "alt": "https://movie.douban.com/photos/photo/537681563/",
+            "id": "537681563",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p537681563.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p537662596.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p537662596.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p537662596.webp",
+            "alt": "https://movie.douban.com/photos/photo/537662596/",
+            "id": "537662596",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p537662596.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p537661988.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p537661988.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p537661988.webp",
+            "alt": "https://movie.douban.com/photos/photo/537661988/",
+            "id": "537661988",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p537661988.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p1991995792.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p1991995792.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p1991995792.webp",
+            "alt": "https://movie.douban.com/photos/photo/1991995792/",
+            "id": "1991995792",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p1991995792.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p476856092.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p476856092.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p476856092.webp",
+            "alt": "https://movie.douban.com/photos/photo/476856092/",
+            "id": "476856092",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p476856092.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p518850148.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p518850148.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p518850148.webp",
+            "alt": "https://movie.douban.com/photos/photo/518850148/",
+            "id": "518850148",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p518850148.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p991927324.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p991927324.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p991927324.webp",
+            "alt": "https://movie.douban.com/photos/photo/991927324/",
+            "id": "991927324",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p991927324.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p537657620.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p537657620.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p537657620.webp",
+            "alt": "https://movie.douban.com/photos/photo/537657620/",
+            "id": "537657620",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p537657620.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2413275288.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2413275288.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2413275288.webp",
+            "alt": "https://movie.douban.com/photos/photo/2413275288/",
+            "id": "2413275288",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2413275288.webp"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p641792563.webp",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p641792563.webp",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p641792563.webp",
+            "alt": "https://movie.douban.com/photos/photo/641792563/",
+            "id": "641792563",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p641792563.webp"
+        }
+    ],
+    "summary": "小月的母亲生病住院了，父亲带着她与四岁的妹妹小梅到乡间的居住。她们对那里的环境都感到十分新奇，也发现了很多有趣的事情。她们遇到了很多小精灵，她们来到属于她们的环境中，看到了她们世界中很多的奇怪事物，更与一只大大胖胖的龙猫成为了朋友。龙猫与小精灵们利用他们的神奇力量，为小月与妹妹带来了很多神奇的景观，令她们大开眼界。\n妹妹小梅常常挂念生病中的母亲，嚷着要姐姐带着她去看母亲，但小月拒绝了。小梅竟然自己前往，不料途中迷路了，小月只好寻找她的龙猫及小精灵朋友们帮助。©豆瓣",
+    "clips": [
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/1668787777.jpg?",
+            "title": "片段：开场动画",
+            "subject_id": "1291560",
+            "alt": "https://movie.douban.com/trailer/119894/",
+            "small": "https://img9.doubanio.com/img/trailer/small/1668787777.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202006112037/05611c0ebb0b97a275cc5077eea3d184/view/movie/M/301190894.mp4",
+            "id": "119894"
+        }
+    ],
+    "subtype": "movie",
+    "directors": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p616.webp"
+            },
+            "name_en": "Hayao Miyazaki",
+            "name": "宫崎骏",
+            "alt": "https://movie.douban.com/celebrity/1054439/",
+            "id": "1054439"
+        }
+    ],
+    "comments_count": 158227,
+    "popular_reviews": [
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "终极辟谣——《龙猫》到底是不是［恐怖故事〕？",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "163694915",
+                "avatar": "https://img9.doubanio.com/icon/u163694915-1.jpg",
+                "signature": "看电影的少年",
+                "alt": "https://www.douban.com/people/163694915/",
+                "id": "163694915",
+                "name": "罗罔极"
+            },
+            "summary": "今天六一，成年人秒变儿童的日子。 估计不少人和我一样，打算看场低龄向电影，找一找童真。 然而，查询售票信息，却看见这样的东西： 《潜艇总动员：海底两万里》 《魔镜奇缘2》 不仅画面烂到爆，更无处不在山寨...",
+            "alt": "https://movie.douban.com/review/9409988/",
+            "id": "9409988"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "像孩子一样大呼小叫",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "Lindsey626",
+                "avatar": "https://img9.doubanio.com/icon/u1476278-23.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/Lindsey626/",
+                "id": "1476278",
+                "name": "Lindsey落枕"
+            },
+            "summary": "   森林里藏匿着一种神奇的生物，它的名字叫多多洛。      它有着圆滚滚的庞大身躯与软软的毛，晚上会领着自己的小朋友在树枝的最顶端吹出悠扬的乐曲，下雨的时候戴着一顶荷叶小帽，要回家的时候则召来它威风凛凛...",
+            "alt": "https://movie.douban.com/review/1367581/",
+            "id": "1367581"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "愿人人心中都有龙猫",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "grbzywg",
+                "avatar": "https://img9.doubanio.com/icon/u1562637-9.jpg",
+                "signature": "panlikeice",
+                "alt": "https://www.douban.com/people/grbzywg/",
+                "id": "1562637",
+                "name": "儒"
+            },
+            "summary": "刚刚看完了宫崎峻的《龙猫》，有种温馨地想要流泪的感觉。      小时侯，非常喜欢范晓萱，也非常喜欢那首《豆豆龙》（豆豆龙应该就是指龙猫），原来就是这部动画片的主题曲，所以听起来感到自己像是又回到了童年...",
+            "alt": "https://movie.douban.com/review/1159341/",
+            "id": "1159341"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "殿堂级大师的作品",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "sarmy",
+                "avatar": "https://img9.doubanio.com/icon/u1010094-1.jpg",
+                "signature": "你的眼泪欢笑全都会失去。",
+                "alt": "https://www.douban.com/people/sarmy/",
+                "id": "1010094",
+                "name": "小沙弥"
+            },
+            "summary": "    《龙猫》是宫崎骏的在STUDIO GHIBLI的第三部电影，因为这部平静而温馨的电影使得龙猫这个可爱的生物在全世界都家喻户晓。《龙猫》十分适合一家老小齐齐观看的。   　　“在我们乡下，有一种神奇的小精灵，他...",
+            "alt": "https://movie.douban.com/review/1009347/",
+            "id": "1009347"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "吾家有妹初长成",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "lankaiyin",
+                "avatar": "https://img9.doubanio.com/icon/u2285690-144.jpg",
+                "signature": "☂雨滴先生正在离我而去☂",
+                "alt": "https://www.douban.com/people/lankaiyin/",
+                "id": "2285690",
+                "name": "琥珀糖☁️☁️"
+            },
+            "summary": "是从什么时候开始，我们不再为了抢电视频道而吵架的呢？ 是从什么时候开始，在我出去玩了几天回来你不但不埋怨妈妈偏心，还把我换下来的衣服洗好，叠起来放在我衣柜里？ 是从什么时候开始，我们躺在一张床上开始...",
+            "alt": "https://movie.douban.com/review/1350862/",
+            "id": "1350862"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "即使龙猫的故事来源于真实事件，也不会减弱我们对故事本身的爱",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "moonand6pence",
+                "avatar": "https://img9.doubanio.com/icon/u2207449-8.jpg",
+                "signature": "SIMPLIESS",
+                "alt": "https://www.douban.com/people/moonand6pence/",
+                "id": "2207449",
+                "name": "小林君"
+            },
+            "summary": "这个说法是在2007年2月左右开始传开，动画龙猫中其实有很多里设定和里故事，稍微整理了一下日文的资料，大概的翻译一下，是巧合还是真实信不信就在于在个人了。大家推测的版本很多，其中有一种是其实两姐妹已经在...",
+            "alt": "https://movie.douban.com/review/3471687/",
+            "id": "3471687"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 4,
+                "min": 0
+            },
+            "title": "多多洛的隐喻",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "coldenjoy",
+                "avatar": "https://img9.doubanio.com/icon/u1770797-8.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/coldenjoy/",
+                "id": "1770797",
+                "name": "冷自如"
+            },
+            "summary": "《龙猫》知识简本：  1.图中胖胖的动物在片中被称为多多洛  2.多多洛其实是鼠类  3.龙猫在片中其实是多多洛的公交车  -----------------------------------   我们被《龙猫》所吸引，然而那羡慕与向往之心并不是...",
+            "alt": "https://movie.douban.com/review/1574311/",
+            "id": "1574311"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "第一次在动画片里看见小朋友",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "chenshuyan",
+                "avatar": "https://img9.doubanio.com/icon/u1374107-13.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/chenshuyan/",
+                "id": "1374107",
+                "name": "苏言"
+            },
+            "summary": "我第一次在动画片里看见小朋友。  那个孩子是怎样的呢？  是姐姐的跟屁虫，姐姐走到哪她就跟到哪，姐姐看哪儿她也跟着看哪儿，姐姐说什么她也跟着说什么，姐姐不在就找姐姐  穿上套装第一句就问“我像不像姐姐？...",
+            "alt": "https://movie.douban.com/review/2128410/",
+            "id": "2128410"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "《龙猫》体现了宫崎骏的什么风格？",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "163694915",
+                "avatar": "https://img9.doubanio.com/icon/u163694915-1.jpg",
+                "signature": "看电影的少年",
+                "alt": "https://www.douban.com/people/163694915/",
+                "id": "163694915",
+                "name": "罗罔极"
+            },
+            "summary": "就算再过三百年，它也仍是不朽经典 在这世上，有一种作品—— 你五六岁看它，会激动不已； 你十几岁看它，也仍然愉悦。 甚至数十年过去，当你长大成人，还会反复观摩。 你渐渐发现，人生的许多真义，其实就藏在那...",
+            "alt": "https://movie.douban.com/review/9827431/",
+            "id": "9827431"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5,
+                "min": 0
+            },
+            "title": "昭和年的乡愁",
+            "subject_id": "1291560",
+            "author": {
+                "uid": "MovieL",
+                "avatar": "https://img9.doubanio.com/icon/u1128221-98.jpg",
+                "signature": "公众号：moviesss",
+                "alt": "https://www.douban.com/people/MovieL/",
+                "id": "1128221",
+                "name": "木卫二"
+            },
+            "summary": "微信公众号：moviesss 首发于 MOViE木卫 看《龙猫》，至少是十几年前的回忆了。 印象最深的吉卜力作品观影记忆，是高考结束不久，去山里找朋友。 当时没什么娱乐手段，连单机版的星际可能都没有。我就对着电脑硬...",
+            "alt": "https://movie.douban.com/review/9829947/",
+            "id": "9829947"
+        }
+    ],
+    "ratings_count": 915544,
+    "aka": [
+        "邻居托托罗",
+        "邻家的豆豆龙",
+        "隔壁的特特罗",
+        "Tonari no Totoro",
+        "My Neighbor Totoro"
+    ]
+};
 }

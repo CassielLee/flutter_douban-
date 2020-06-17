@@ -56,7 +56,7 @@ class MovieModel {
     return MovieModel(
         count: count ?? this.count,
         start: start ?? this.start,
-        total: this.total,
+        total: total ?? this.total,
         movieList: movieList);
   }
 
@@ -72,10 +72,6 @@ class MovieModel {
         start: this.start,
         total: this.total,
         movieList: this.movieList);
-  }
-
-  bool isEmpty() {
-    return movieList.isEmpty;
   }
 }
 
@@ -98,7 +94,7 @@ class MovieItem {
     this.imageURL = json['images']['medium'];
     this.title = json['title'];
     this.playDate = json['year'];
-    this.rating = json["rating"]['average'];
+    this.rating = json['rating']['average'].toDouble();
     this.genres = json['genres'].cast<String>();
     this.casts = (json["casts"] as List<dynamic>).map((item) {
       return Actor.fromMap(item);

@@ -62,18 +62,14 @@ class HomeBloc extends Bloc<HomeEvent, HomePageState> {
 
   @override
   Stream<HomePageState> mapEventToState(HomeEvent event) async* {
-    // if (_locked) {
-    //   return;
-    // }
-    // _locked = true;
     if (event is GetHomeMovieData) {
-      yield state.copyWith(loading: true);
+      yield state.copyWith(loading: true,error: false);
       try {
         MovieModel data = await Api.getMovieList(0);
         _page = 1;
         yield state.copyWith(page: 1, data: data, loading: false);
       } catch (e) {
-        Logger.d("GetMoviest error: $e");
+        Logger.d("GetMovieList error: $e");
         yield state.copyWith(
             loading: false,
             error: true,

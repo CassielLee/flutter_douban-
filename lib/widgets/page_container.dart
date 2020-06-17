@@ -46,17 +46,17 @@ class PageContainer extends StatelessWidget {
                 children: <Widget>[
                   Image.asset('assets/images/common/ic_error.png',
                       height: 200, width: 200),
-                  SizedBox(height: 10),
-                  Text("数据获取失败")
+                  Text("数据获取失败"),
+                  RaisedButton(
+                    color: Colors.green,
+                    colorBrightness: Brightness.light,
+                    highlightColor: Colors.greenAccent,
+                    child: Text("重新加载",
+                        style: TextStyle(color: Colors.white, fontSize: 15)),
+                    onPressed: onLoad,
+                  )
                 ]),
           ),
-          Container(
-            child: RaisedButton(
-              child: Text("重新加载",
-                  style: TextStyle(color: Colors.white, fontSize: 15)),
-              onPressed: onLoad,
-            ),
-          )
         ]));
   }
 
@@ -67,7 +67,7 @@ class PageContainer extends StatelessWidget {
       decoration: BoxDecoration(
           color: Colors.white, borderRadius: BorderRadius.circular(5)),
       width: MediaQuery.of(context).size.width,
-      child: CustomLoading(),
+      child: CustomLoading(padding: EdgeInsets.only(top:300),),
     );
   }
 
